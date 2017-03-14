@@ -34,7 +34,7 @@ var Weather = React.createClass({
             } else if (temp && location) {
                 return <WeatherMessage temp={temp} location={location} />
             }
-        }
+        }y
 
         return (
             <div>
